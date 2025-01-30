@@ -6,7 +6,7 @@
                 <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
                 <cbc:CustomizationID>2.0</cbc:CustomizationID>
                 <cbc:ID>FF03-53965</cbc:ID>
-                <cbc:IssueDate>2025-01-27</cbc:IssueDate>
+                <cbc:IssueDate>2025-01-28</cbc:IssueDate>
                 <cbc:IssueTime>10:04:45</cbc:IssueTime><cbc:InvoiceTypeCode listID="0101" listAgencyName="PE:SUNAT" listName="Tipo de Documento" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01" name="Tipo de Operacion" listSchemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo51">01</cbc:InvoiceTypeCode><cbc:Note languageLocaleID="1000">Quinientos noventa con 00/100 dolares</cbc:Note>
             <cbc:DocumentCurrencyCode listID="ISO 4217 Alpha" listName="Currency" listAgencyName="United Nations Economic Commission for Europe">USD</cbc:DocumentCurrencyCode><cac:Signature>
             <cbc:ID>20604051984</cbc:ID>
