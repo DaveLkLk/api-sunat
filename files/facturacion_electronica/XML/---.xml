@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?><Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><ext:UBLExtensions>
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?><ext:UBLExtensions>
                     <ext:UBLExtension>
                         <ext:ExtensionContent></ext:ExtensionContent>
                     </ext:UBLExtension>
@@ -7,7 +7,7 @@
                 <cbc:CustomizationID>2.0</cbc:CustomizationID>
                 <cbc:ID>-</cbc:ID>
                 <cbc:IssueDate></cbc:IssueDate>
-                <cbc:IssueTime></cbc:IssueTime><cbc:InvoiceTypeCode listID="0101" listAgencyName="PE:SUNAT" listName="Tipo de Documento" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01" name="Tipo de Operacion" listSchemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo51"></cbc:InvoiceTypeCode><cbc:Note languageLocaleID="1000">Cero  con /100 soles</cbc:Note>
+                <cbc:IssueTime></cbc:IssueTime><cbc:Note languageLocaleID="1000">Cero  con 00/100 soles</cbc:Note>
             <cbc:DocumentCurrencyCode listID="ISO 4217 Alpha" listName="Currency" listAgencyName="United Nations Economic Commission for Europe">PEN</cbc:DocumentCurrencyCode><cac:Signature>
             <cbc:ID></cbc:ID>
             <cac:SignatoryParty>
@@ -59,15 +59,11 @@
                     <cbc:RegistrationName><![CDATA[]]></cbc:RegistrationName>
                 </cac:PartyLegalEntity>
             </cac:Party>
-        </cac:AccountingCustomerParty><cac:PaymentTerms>
-                <cbc:ID>FormaPago</cbc:ID>
-                <cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
-            </cac:PaymentTerms><cac:TaxTotal>
-                <cbc:TaxAmount currencyID="PEN">0</cbc:TaxAmount></cac:TaxTotal><cac:LegalMonetaryTotal>                                
+        </cac:AccountingCustomerParty><cac:TaxTotal>
+                <cbc:TaxAmount currencyID="PEN">0</cbc:TaxAmount></cac:TaxTotal><cac:>                                
                 <cbc:LineExtensionAmount currencyID="PEN">0.00</cbc:LineExtensionAmount>
                 <cbc:TaxInclusiveAmount currencyID="PEN">0.00</cbc:TaxInclusiveAmount>
-                <cbc:AllowanceTotalAmount currencyID="PEN">0.00</cbc:AllowanceTotalAmount>
                 <cbc:ChargeTotalAmount currencyID="PEN">0.00</cbc:ChargeTotalAmount>
                 <cbc:PrepaidAmount currencyID="PEN">0.00</cbc:PrepaidAmount>
                 <cbc:PayableAmount currencyID="PEN">0.00</cbc:PayableAmount>
-            </cac:LegalMonetaryTotal></Invoice>
+            </cac:></>
